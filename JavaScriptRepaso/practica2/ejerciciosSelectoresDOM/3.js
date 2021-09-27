@@ -9,6 +9,8 @@ function colorear(){
     x=parseInt(fila);
     y=parseInt(columna);
 
-    celda=document.querySelector(`tabla tr:nth-child(${x}) td:nth-child(${y})`);
+    celda=document.querySelector(`table tr:nth-child(${x}) td:nth-child(${y})`);
     celda.classList.add("rojo");
 }
+
+
