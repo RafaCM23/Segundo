@@ -1,0 +1,47 @@
+Selectores CSS
+--------------
+https://flukeout.github.io/
+
+# -> ID
+plate apple -> la manzana (dentro) del plato
+.small -> clase
+orange.small -> naranja pequeña <orange class="small">
+plate, bento -> platos y bentos
+* -> todo
+plate * -> todo en un plato
+plate + apple -> todas las manzanas al lado de un plato
+bento  ~ pickle  -> detras
+plate > apple -> manzana encima de plato (solo 1 nivel de descendencia)
+plate :first-child-> el primer hijo
+
+plate apple,pickle:only-child -> manzana y pepinillo solo los que son hijos del plato
+
+bento:nth-child(8) -> el octavo hijo que es de tipo bento
+bento:first-of-type -> el primero
+
+plate:nth-type-of(even) -> los platos pares
+
+plate:nth-of-type(2n+3) -> los platos de 2 en 2 empezando por el 3
+
+plate apple:only-of-type -> solo las manzanas cuando son el unico elemento en un plato
+
+
+bento:empty;
+
+apple:not(.small) -> las manzanas que no son pequeñas
+
+[for] -> que tiene el atributo for=""
+
+plate[for] -> plato con el atributo for
+...[for="valor"] -> valor especifico
+[for^="Sa"] con atributo que empiza por Sa
+[for$="ont"] ... acaba en ont
+[for*="obb"] ... que contenga obb
+
+
+
+
+
+
+
+.small:last-of-type -> las cosas chiquitas que son ultimas
