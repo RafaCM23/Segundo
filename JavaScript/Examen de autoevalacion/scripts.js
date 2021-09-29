@@ -24,15 +24,7 @@ function insertar() {
     }
 
     if (existe == false) {
-        celda1 = document.createElement("td")
-        celda2 = document.createElement("td")
-        celda3 = document.createElement("td")
-        celda4 = document.createElement("td")
-
-        celda1.innerText = numero;
-        celda2.innerText = dni;
-        celda3.innerText = nombre;
-        celda4.innerText = apellidos;
+        creartabla();
 
         fila = document.createElement("tr");
         fila.appendChild(celda1);
@@ -71,15 +63,7 @@ function modificar() {
 
     actualizarvalores();
 
-    celda1 = document.createElement("td")
-    celda2 = document.createElement("td")
-    celda3 = document.createElement("td")
-    celda4 = document.createElement("td")
-
-    celda1.innerText = numero;
-    celda2.innerText = dni;
-    celda3.innerText = nombre;
-    celda4.innerText = apellidos;
+    creartabla();
 
     nueva = document.createElement("tr");
     nueva.appendChild(celda1);
@@ -106,6 +90,15 @@ function actualizarvalores(){
     nombre = document.getElementById("nombre").value;
     apellidos = document.getElementById("apellidos").value;
 
-    
+}
+function creartabla(){
+    celda1 = document.createElement("td")
+    celda2 = document.createElement("td")
+    celda3 = document.createElement("td")
+    celda4 = document.createElement("td")
 
+    celda1.innerText = numero;
+    celda2.innerText = dni;
+    celda3.innerText = nombre;
+    celda4.innerText = apellidos;
 }
