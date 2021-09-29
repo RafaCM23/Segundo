@@ -42,6 +42,7 @@ textolargo.addEventListener('keyup', contenido);
 function contenido(e){
        
         console.log(e.key)
+        console.log(textolargo.value)
     }
 
 
