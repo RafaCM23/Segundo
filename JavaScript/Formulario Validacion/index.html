@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 1</title>
+</head>
+<style>
+    text{
+        color:white;
+    }
+    label{
+        margin-left: 1em;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        
+    }
+    label.sexo{
+        color:rgb(214, 136, 10);
+        font-size: 20px;
+        margin-left: 2em;
+    }
+    h1{
+        margin-left: 1em;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        
+    }
+    #contenedor{
+        background: #26547C;
+        width: 800px;
+        height: 600px;
+        float: left;
+        border: 1px solid black;
+        
+        margin-left: 5em;
+    }
+    input[type="checkbox"]{
+        height: 20px;
+        width: 20px;
+    }
+    .oculto{
+    visibility: hidden;
+    }
+</style>
+<body>
+    
+    <div id="contenedor">
+        <h1>Formulario</h1>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" ><br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos"><br>
+            <label for="correo">E-mail</label>
+            <input type="text" name="correo" id="correo"><br>
+
+            <label for="sexo">Sexo</label>
+
+            <label class="sexo">MUJER</label>
+            <input type="radio" name="sexo" id="sexom">
+            <label class="sexo">HOMBRE</label>
+            <input type="radio" name="sexo" id="sexoh">
+            <br>
+            <label for="padre">¿Tiene hijos?</label>
+            <input type="checkbox" name="padre" id="padre" size="">
+            <br>
+            <label for="hijos" class="oculto">¿Cuantos?</label>
+            <input type="number" name="hijos" id="hijos" min="0" max="10" class="oculto">
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
