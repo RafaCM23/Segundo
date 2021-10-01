@@ -47,7 +47,7 @@
     
     <div id="contenedor">
         <h1>Formulario</h1>
-        <form>
+        <form action="http://www.iesjacaranda.es/lmsgi/resultado.php" method="POST">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" ><br>
             <label for="apellidos">Apellidos</label>
@@ -56,17 +56,19 @@
             <input type="text" name="correo" id="correo"><br>
 
             <label for="sexo">Sexo</label>
-
+            <div id="divsexo">
             <label class="sexo">MUJER</label>
-            <input type="radio" name="sexo" id="sexom">
+            <input type="radio" name="sexo" id="sexo" value="mujer">
             <label class="sexo">HOMBRE</label>
-            <input type="radio" name="sexo" id="sexoh">
+            <input type="radio" name="sexo" id="sexo" value="hombre">
+             </div>
             <br>
             <label for="padre">¿Tiene hijos?</label>
-            <input type="checkbox" name="padre" id="padre" size="">
+            <input type="checkbox" name="padre" id="padre">
             <br>
             <label for="hijos" class="oculto">¿Cuantos?</label>
-            <input type="number" name="hijos" id="hijos" min="0" max="10" class="oculto">
+            <input type="number" name="hijos" id="hijos"  min="1" max="10" class="oculto">
+            <button type="submit">Enviar</button>
         </form>
     </div>
 <script src="script.js"></script>
