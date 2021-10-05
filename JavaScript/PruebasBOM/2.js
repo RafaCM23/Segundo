@@ -1,4 +1,4 @@
-anclas=document.anchors;
+anclas=document.anchors;// Deprecated
 formularios=document.forms;
 imagenes=document.images;
 enlaces=document.links;
