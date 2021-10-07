@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fecha y Hora</title>
+</head>
+<style>
+    .contenedor{
+        height: 1000px;
+        width: 800px;
+        align-items: center;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: x-large;
+    }
+    .seccion label:nth-child(3){
+       margin-left: 1em;
+    }
+    hr{
+        border: 1px solid rgb(80, 80, 80);
+        height: 0px;
+        background-color: rgb(80, 80, 80);
+        
+    }
+   
+</style>
+<body>
+    <!-- 
+         1.  Introduce DateTime 
+         2.  Introduce mes y año, imprime calendario(no tiene que ser fisico)
+         3.  Introduce fecha y dias de demora, calcula que dia será el dia de pago
+         4.  Cronometro
+         5.  Alarma
+    -->
+<div class="contenedor">
+    <div id="primero" class="seccion">
+        <label for="fecha">Fecha: </label>
+        <input type="date" name="fecha" id="date">
+        <label for="hora">Hora: </label>
+        <input type="time" name="hora" id="time">
+        <p id="respuesta1"></p>
+        <hr>
+    </div>
+    <div id="segundo" class="seccion">
+        <label for="month">Mes:</label>
+
+        <select name="mes2" id="mes2">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+        </select>
+        <label for="anio">Año:</label>
+        <input type="number" name="anio" id="anio" min="2000" max="2022">
+        <p id="respuesta2"></p>
+        <hr>
+    </div>
+    <div id="tercero" class="seccion">
+        <label for="fecha3">Fecha: </label>
+        <input type="date" name="fecha3" id="fecha3">
+        <label for="demora">Demora: </label>
+        <input type="number" name="demora" id="demora">
+        <p id="respuesta3"></p>
+        <hr>
+    </div>
+    <div id="cuarto" class="seccion">
+        <p id="respuesta4"></p>
+        <hr>
+    </div>
+    <div id="quinto" class="seccion">
+        <p id="horaactual"></p>
+        <input type="time" name="alarma" id="alarma">
+        <hr>
+    </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
