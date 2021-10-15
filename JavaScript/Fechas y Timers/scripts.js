@@ -133,6 +133,7 @@ function horaminuto(){
     now=new Date();
     var localeSpecificTime = now.toLocaleTimeString();
     horaactual.innerText=localeSpecificTime.replace(/:\d+ /, ' ');
+    
 }
 
 //now.toLocaleTimeString()

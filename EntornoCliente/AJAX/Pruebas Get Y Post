@@ -1,0 +1,45 @@
+https://jsonplaceholder.typicode.com/todos
+https://jsonplaceholder.typicode.com/todos?id=55
+https://jsonplaceholder.typicode.com/todos/55
+
+--Probar GET--
+
+
+https://jsonplaceholder.typicode.com/todos
+{
+  "userId":1,
+  "title": "prueba",
+  "completed":false
+}
+
+--Probar Post--
+
+https://jsonplaceholder.typicode.com/posts/1
+{
+  "userId":1,
+  "id"=55,
+  "title": "Prueba de Post",
+  "completed":false
+}
+
+
+
+----Meter un dato POST---
+
+http://localhost:3000/comments?id=2
+
+{
+  "body":"comentario",
+  "postId":1
+}
+
+
+----Cambiar un dato con PUT----
+
+http://localhost:3000/comments/2
+{
+  "body": "aa",
+  "postId": 1
+}
+
+
