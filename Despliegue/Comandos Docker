@@ -1,0 +1,30 @@
+*TOMCAT*
+········
+sudo docker run --name mitomcat -p 8080:8080 tomcat
+sudo docker exec -it mitomcat /bin/bash
+
+
+----------------
+
+
+para ejecutar apache desde la consola:
+sudo docker start 6ee687689dc1
+sudo docker exec -it 6ee687689dc1 /bin/bash
+
+
+
+start,stop y exec necesita el id/nobre del contenedor
+run crea uno nuevo
+dock
+
+
+
+para meter mi pagina web:
+
+sudo docker run --name mitomcat -p 8080:8080 tomcat
+(este es de tomcat pero para saber como darle nombre)
+
+rcp -r Evaluacion\ inicial\ html/ rafa@172.17.0.2:/home/rafa
+cp /home/rafa/Evaluacion\ inicial\ html/index.html .
+
+
