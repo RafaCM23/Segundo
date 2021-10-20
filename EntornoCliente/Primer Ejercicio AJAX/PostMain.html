@@ -4,15 +4,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PostViewer</title>
 </head>
-<link href="post.css" rel="stylesheet" type="text/css">
+<link href="postMain.css" rel="stylesheet" type="text/css">
 <body>
     <div class="contenedor" id="listado">
-        <h1></h1>
+        <h1 id="titulo"></h1>
         <br>
-        <p></p>
+            <!--
+          Aqui se genera con javascrip El post
+      -->
+        <p id="contenido"></p>
     </div>
-    <div id="comentario">
-
+    <hr>
+    <div class="comentarios" id="comentarios" >
+      <!--
+          Aqui se genera con javascrip los comentarios
+      -->
+    </div>
+    <form>
+        <select name="usuarios" id="usuarios">
+            
+        </select>
+    </form>
+    
     </div>
     <script src="postMain.js"></script>
 </body>
