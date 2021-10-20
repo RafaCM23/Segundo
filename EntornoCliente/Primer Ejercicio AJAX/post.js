@@ -42,9 +42,9 @@ for (const i of post) {
     nuevafila.appendChild(texto)
     listado.appendChild(nuevafila);
 
-    boton=crearVer();
+    boton=crearVer(i);
     listado.appendChild(boton);
-    boton=crearBorrar();
+    boton=crearBorrar(i);
     listado.appendChild(boton);
 
     listado.appendChild(barra);
@@ -52,17 +52,19 @@ for (const i of post) {
 }
 }
 //Hay que pasarle los valores del enlace para poder crear los botones correctamente
-function crearBorrar(){
+function crearBorrar(i){
     boton=document.createElement("input");
     boton.value="borrar";
     boton.setAttribute("type","button");
     boton.classList.add("boton1");
     return boton;
 }
-function crearVer(){
+function crearVer(i){
     boton=document.createElement("input");
     boton.value="Ver";
     boton.setAttribute("type","button");
+    direccion="http://localhost:3000/posts?id="+i['id']
     boton.classList.add("boton2");
     return boton;
+    //arreglar que el boton se pueda clickar y abra otra pagina
 }
