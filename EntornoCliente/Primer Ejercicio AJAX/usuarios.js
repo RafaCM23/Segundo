@@ -4,7 +4,12 @@ correo=document.getElementById("correo");
 dni=document.getElementById("dni");
 fecha=document.getElementById("fechanac");
 telefono=document.getElementById("telefono");
-boton=document.getElementById("boton")
+boton=document.getElementById("enviar")
+
+volverLista=document.getElementById("volverLista");
+volverLista.addEventListener('click', function(){
+    window.location="ListaPost.html";
+})
 
 const formIsValid = {
     nombre:false,
@@ -100,3 +105,4 @@ function enviarDatos(){
     peticion.send(JSON.stringify(nuevoUsuario));
 
 }
+

@@ -1,23 +1,28 @@
 .contenedor{
     height: 1000px;
-    width: 800px;
+    width: 700px;
     align-items: center;
-    margin-left: 15%;
     margin-top: 5%;
     font-size: x-large;
+    float: left;
 }
 .seccion label{
     margin-left: 9em;
+}
+.cabecera{
+  float: left;
+  margin-top: 2em;
+ 
 }
 hr{
     width: 18em;
 }
 h1{
     padding: 10px;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
-#boton{
+input[type='button']{
   padding: 0 16px;
   border-radius: 2px;
   background-color: #018786;

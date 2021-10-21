@@ -7,3 +7,7 @@
 
 
 //Notas: Hay que enviar JSON no FORMDATA
+
+Falta:
+-> Conectar las paginas entre si (header importado para todas)
+->Validacion y Persistencia de comentarios

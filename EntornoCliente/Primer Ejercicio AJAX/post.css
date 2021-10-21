@@ -8,6 +8,14 @@
 .seccion {
     margin-left: 6em;
 }
+.cabecera{
+
+  float: left;
+}
+.cabecera input{
+  margin-left: 60%;
+  margin-top: 2em;
+}
 
 hr{
     width: 25em;

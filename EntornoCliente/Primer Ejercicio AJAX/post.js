@@ -1,6 +1,10 @@
 
 listado = document.getElementById("listado")
 
+volverCreacion=document.getElementById("volverCreacion");
+volverCreacion.addEventListener('click', function(){
+    window.location="creacionUsuarios.html";
+})
 
 
 //Vamos a recuperar los post que ya estan creados
