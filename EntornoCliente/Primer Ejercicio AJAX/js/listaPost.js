@@ -87,7 +87,7 @@ function crearVer(i) {
     boton = document.createElement("input");
     boton.value = "Ver";
     boton.setAttribute("type", "button");
-    direccion = `'PostMain.html?id=${i['id']}'`
+    direccion = `'postMain.html?id=${i['id']}'`
     boton.classList.add("boton2");
     boton.setAttribute("onclick", `window.location=${direccion}`);
     return boton;

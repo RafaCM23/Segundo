@@ -28,3 +28,9 @@ rcp -r Evaluacion\ inicial\ html/ rafa@172.17.0.2:/home/rafa
 cp /home/rafa/Evaluacion\ inicial\ html/index.html .
 
 
+
+
+vinculando carpetas:
+docker run -p 8080:8080 -v /home/rafa/TomcatWebapp/:/usr/local/tomcat/webapps --name Tomcat8 tomcat:8
+
+

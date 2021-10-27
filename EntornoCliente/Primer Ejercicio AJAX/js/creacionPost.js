@@ -3,7 +3,10 @@ autor=document.getElementById("autor");
 contenido=document.getElementById("contenido");
 
 boton=document.getElementById("boton");
-
+volverLista=document.getElementById("volverLista");
+volverLista.addEventListener('click', function(){
+    window.location="listaPost.html";
+})
 
 
 boton.addEventListener('click', comprobar);
@@ -70,7 +73,7 @@ function enviarDatos(){
     peticion.open('POST',"http://localhost:3000/posts")
     peticion.setRequestHeader('Content-type','application/json');
     peticion.send(JSON.stringify(nuevopost))
-    window.location="ListaPost.html";
+    window.location="listaPost.html";
 }
 
 

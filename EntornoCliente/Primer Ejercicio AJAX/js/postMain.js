@@ -111,7 +111,7 @@ enviar=document.getElementById("enviar");
 hoy=new Date();
 enviar.addEventListener('click', function(){
 if(usuarios.value!=null && !contenidoComentario.value=="" && contenidoComentario.textLength>2 ){
-    fecha=`${hoy.getFullYear()}-${hoy.getMonth()}-${hoy.getDay()}`;
+    fecha=`${hoy.getFullYear()}-${hoy.getMonth()}-${hoy.getDate()}`;
     const nuevoComentario={
         author:usuarios.value,
         postId:idPost,

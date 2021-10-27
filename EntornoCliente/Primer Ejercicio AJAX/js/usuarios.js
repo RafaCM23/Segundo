@@ -8,7 +8,7 @@ boton=document.getElementById("enviar")
 
 volverLista=document.getElementById("volverLista");
 volverLista.addEventListener('click', function(){
-    window.location="ListaPost.html";
+    window.location="listaPost.html";
 })
 
 const formIsValid = {
@@ -103,6 +103,7 @@ function enviarDatos(){
     peticion.open('POST',"http://localhost:3000/users");
     peticion.setRequestHeader('Content-type', 'application/json');
     peticion.send(JSON.stringify(nuevoUsuario));
+    window.location="listaPost.html";
 
 }
 
