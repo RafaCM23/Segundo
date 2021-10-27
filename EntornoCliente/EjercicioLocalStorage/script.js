@@ -21,7 +21,7 @@ input.addEventListener('keyup', function(e){
 //Recuperar las tareas del localstorage
 
 
-window.addEventListener('load',recuperarTareas)
+window.addEventListener('load',recuperarTareas);
 function recuperarTareas(){
     todas=Object.keys(localStorage).sort();
     if(todas.length>0){
@@ -37,12 +37,6 @@ function guardarTarea(tarea){
     
     localStorage.setItem(`${tarea.id}`,JSON.stringify(tarea));
 }
-
-
-
-
-
-
 
 
 function crearTarea(e){
@@ -94,8 +88,13 @@ function crearBotones(a){
 function borrar(e){
     localizar=`li[id='${e.target.id}']`
     localizado=document.querySelector(localizar);
-    lista.removeChild(localizado);
-    localStorage.removeItem(e.target.id);
+    
+    if(localizado.matches(".tachado")){
+        localStorage.removeItem(e.target.id);
+        lista.removeChild(localizado);
+    }
+    else{alert("Tienes que acabar la tarea primero");}
+    
 }
 
 function tachar(e){
@@ -120,5 +119,4 @@ function guardarEstado(ide){
         checked:cuadrito.checked
     }
     guardarTarea(tarea);
-    console.log("Hola");
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tareas Drag & Drop</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <div id="pendientes" class="tasks">
+        <h2 class="titulo">Pending</h2>
+        <div id="tarea1" class="task" draggable="true">Tarea 1</div>
+        <div id="tarea2" class="task" draggable="true">Tarea 2</div>
+        <div id="tarea3" class="task" draggable="true">Tarea 3</div>
+        <div id="tarea4" class="task" draggable="true">Tarea 4</div>
+        <div id="tarea5" class="task" draggable="true">Tarea 5</div>
+      </div>
+      
+      <div id="enProceso" class="tasks">
+        <h2 class="titulo">Doing</h2>
+      </div>
+
+      <div id="acabadas" class="tasks">
+        <h2 class="titulo">Done</h2>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+
+</html>
