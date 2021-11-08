@@ -1,0 +1,82 @@
+docker run --interactive  --tty ubuntu bash
+
+docker exec -it goofy_heyrovsky  /bin/bash
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es
+*Instalar Apache
+
+https://techexpert.tips/es/apache-es/habilitar-https-en-apache/
+*Activar https (certificado)
+
+https://www.openssl.org/docs/man1.0.2/man1/openssl-req.html
+*explicacion comando openssl
+
+1  exit
+    2  adduser admin
+    3  usermod -aG sudo admin
+    4  apache2
+    5  sudo apt install apache2
+    6  apt install apache2
+    7  clear
+    8  apt update
+    9  apt install nano
+   10  apt install apache2
+   11  systemctl status apache2
+   12  systemctl
+   13  systemd
+   14  apt install systemctl
+   15  systemctl status apache2
+   16  systemctl  help
+   17  systemctl  start apache2
+   18  systemctl status apache2
+   19  hostname -I
+   20  systemctl stop apache2
+   21  systemctl  start apache2
+   22  apt install apache2 openssl ->No me ha hecho falta la ultima vez porque venia con apache2 (despues del update)
+   23  apt install openssl
+   24  a2enmod ssl
+   25  a2enmod rewrite
+   26  service apache2 restart
+   27  nano etc/apache2/apache2.conf 
+   28  mkdir etc/apache2/certificate
+   29  cd etc/apache2/certificate/
+   30  openssl req -new -newkey rsa:4096 -x509 -sha256 -days 3650 -nodes -out apache-certificate.crt -keyout apache.key
+   31  cd 
+   32  nano .
+   33  ls
+   34  cd etc
+   35  ls
+   36  cd ~
+   37  ls
+   38  nano /etc/apache2/sites-enabled/000-default.conf
+   39  service apache2 restart
+   40  systemctl status apache2
+   41  nano /etc/apache2/sites-enabled/000-default.conf
+   42  apt install vim
+   43  vi /etc/apache2/sites-enabled/000-default.conf
+   44  service apache2 restart
+   45  history
+
+
+apuntes para el trabajito:
+
+nano /etc/apache2/apache2.conf
+Agregue las siguientes líneas al final de este archivo.
+
+<Directory /var/www/html>
+AllowOverride All
+</Directory>
+
+
+Cree una clave privada y el certificado de sitio web mediante el comando OpenSSL.
+
+mkdir /etc/apache2/certificate
+cd /etc/apache2/certificate
+openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key
+
+**IMPORTANTE**
+cuando nos pide rellenar el formulario para crear el certificado hay que poner en common name la ip que queramos usar
+(TODO MENTIRA NO CAMBIA XD)
+
+

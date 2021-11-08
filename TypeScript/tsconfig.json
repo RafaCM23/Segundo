@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {"outDir": "compilados"},
+    "include": [
+        "src/*"
+    ]
+}

@@ -26,10 +26,12 @@ body {
     background: rgb(48, 166, 221);
     border: 1px solid black;
     min-height: 130px;
+    font-size: x-large;
+    margin: 5px;
   }
-  
-  .tasks:first-child {
-    margin-right: 1rem;
+  .task:hover{
+    background: rgba(230, 100, 25, 0.917);
+    border: 2px solid black;
   }
   
   .task {
@@ -50,4 +52,16 @@ body {
   .active {
     background-color: #fff;
     color: #000;
+  }
+  label{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 25em;
+    margin-right: 20px;
+    
+  }
+  input{
+    margin-top: 10em;
+    height: 30px;
+    font-size: x-large;
   }
