@@ -1,6 +1,6 @@
 {
-    "compilerOptions": {"outDir": "compilados"},
-    "include": [
-        "src/*"
-    ]
+"compilerOptions": {"outDir": "compilados"},
+"include": [
+  "src/*"
+]
 }

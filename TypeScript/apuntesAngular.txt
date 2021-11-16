@@ -1,0 +1,42 @@
+https://angular.io/start
+
+Un componente tiene tres partes:
+
+-La clase del componente
+-Una plantilla de HTML del componente
+-Un Css para el componente
+
+-----------------------------------------------------------------------
+
+<div *ngFor="let product of products">
+With *ngFor, the <div> repeats for each product in the list...
+
+
+ -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+<div *ngFor="let product of products">
+
+  <h3>
+      {{ product.name }}
+  </h3>
+
+</div>
+
+The {{ product.name }} statement is an example of Angular's interpolation syntax. Interpolation {{ }} lets you render the property value as text.
+
+-----------------------------------------------------------------------
+
+
+<p *ngIf="product.description">
+    Description: {{ product.description }}
+</p>
+
+use an *ngIf directive so that Angular only creates the <p> element if the current product has a description.
+
+
+-----------------------------------------------------------------------
+
+<button (click)="share()">
+    Share
+  </button>
+
+Bind the button's click event to the share() method in product-list.component.ts. Event binding uses a set of parentheses, ( ), around the event, as in the (click) event on the <button> element.
