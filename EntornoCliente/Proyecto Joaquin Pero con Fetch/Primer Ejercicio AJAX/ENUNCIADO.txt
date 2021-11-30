@@ -1,0 +1,13 @@
+// 1- Creacion de Usuarios (Nombre, tlf, dni) y verificar formulario
+// 2- Lista de Post (Lista con nombre, autor y dos botones [Borrar y enlace al post(ver)])
+// 3- Pagina con el post, el autor al final, y una seccion de comentarios con el comentario y el nombre del que ha comentado (se guarda la fecha) y muestra: hace 2 dias
+// 3.1- Esa misma pagina permite hacer comentarios (Select de los usuarios para hacer los comentarios)
+
+// -EXTRA- Pagina para crear los posts
+
+
+//Notas: Hay que enviar JSON no FORMDATA
+
+Falta:
+-> Conectar las paginas entre si (header importado para todas)
+->Validacion y Persistencia de comentarios

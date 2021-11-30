@@ -1,0 +1,26 @@
+body{
+    
+    font-size: x-large;
+    font-weight: 900;
+}
+.contenedor{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: large;
+    margin-top: 1em;
+}
+
+input{
+    margin-top: 1em;
+}
+label:first-of-type{
+margin-left:25px;
+}
+button{
+    margin-top: 2em;
+}
+p{
+	background-color: red;
+	color:black;
+}

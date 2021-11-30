@@ -1,0 +1,89 @@
+.contenedor{
+    width: 800px;
+    align-items: center;
+    margin-left: 15%;
+    font-size: x-large;
+    float: left;
+}
+
+.comentario{
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 1em;
+    border: 1px solid rgb(116, 116, 116);
+
+    
+}
+.cabecera{
+    width: 8%;
+    float: left;
+}
+
+.autor{
+    color: rgb(226, 85, 30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-left: 2em;
+}
+.contenido{
+    color: rgb(44, 44, 44);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 1em;
+}
+p{
+    margin-left: 25%;
+}
+.fecha{
+    margin-left: 20em;
+    color: rgb(110, 110, 110);
+    font-weight: bold;
+}
+
+.seccion {
+    margin-left: 10%;
+}
+
+hr{
+    width: 50em;
+    margin-left: 25%;
+
+}
+h1{
+    padding: 10px;
+    margin-left: 30%;
+}
+
+input{
+  padding: 0 16px;
+  border-radius: 2px;
+  background-color: #018786;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  transition: background-color 15ms linear,
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  height: 36px;
+  line-height: 2.25rem;
+  font-family: Roboto, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-left: 60%;
+  margin-top: 2em;
+}
+textarea{
+    margin-top: 2em;
+    margin-left: 30%;
+}
+select{
+    margin-top: 4em;
+}
+label{
+    margin-left: 60%;
+}
+
+  

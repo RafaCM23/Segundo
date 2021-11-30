@@ -1,0 +1,24 @@
+version: '2' #version 2
+services:    #Vamos a definir los servicios
+  mariadb:   #El primero es mariadb
+    image: docker.io/bitnami/mariadb:10.3  #Le indicamos de donde coger la imagen
+    environment: #Y con este parametro dejamos contraseñas vacias para desarrollar
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+
+  myapp:  #El segundo servicio es myapp, que es interactivo (tty)
+    tty: true # Enables debugging capabilities when attached to this container.
+    image: docker.io/bitnami/rails:6 #Le decimos de donde coger la imagen
+    environment:  # De finimos el entorno con el host y nombre de la base de datos
+      - DATABASE_HOST=mariadb
+      - DATABASE_NAME=my_app_development
+    depends_on: #Solo funcionara si mariadb esta levantada y funcionando
+      - mariadb
+    ports: # Y aqui se supone que definimos los puertos del cliente y del host pero no me funciona :(
+      - 8001:3000
+    volumes: # Y aqui definimos el nombre del volumen que se va a crear
+      - .:/app
+
+
+#Se supone que al cambiar la redireccion de puerto podria acceder por la 172.20.0.3:8001
+#Aun asi solo me deja entrar por la 3000, por eso adjunto dos fotos

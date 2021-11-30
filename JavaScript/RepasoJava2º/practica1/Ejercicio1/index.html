@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Ejercicio 1</title>
+    
+</head>
+<body>
+<style>
+    body{
+        font-size: 20px;
+    }
+    table {
+   width: 80%;
+   border: 1px solid #000;
+   padding: 0,3em;
+    }
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0,3em;
+    }
+</style>
+    <table id='tabla'>
+        <tr>
+            <td>Posición</td>
+            <td>Equipo</td>
+            <td>Puntos</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>FC Barcelona</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Real Madrid</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Atlético de Madrid</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sevilla FC</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <form>
+        <label>Posición</label>
+        <input id="pos" type="text" >
+
+        <label>Equipo</label>
+        <input id="equipo" type="text" >
+
+        <label>Puntos</label>
+        <input id="puntos" type="text" >
+
+        <input id="aplicar" type="button" value="Aplicar">
+
+    </form>
+    <script src='scripts.js'></script>
+</body>
+</html>

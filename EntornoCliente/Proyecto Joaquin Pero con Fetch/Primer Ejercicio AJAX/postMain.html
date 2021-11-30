@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostViewer</title>
+  
+        
+
+    
+   
+
+</head>
+<link href="./css/postMain.css" rel="stylesheet" type="text/css">
+<body>
+    <div class="cabecera">
+        <a href="listaPost.html" class="enlaceCabecera">
+            <input type="button" value="Lista de Post" id="volverListaPost">
+        </a>
+    
+        <a href="creacionUsuarios.html" class="enlaceCabecera">
+            <input type="button" value="Crear Usuario" id="volverCrearUsuario" >
+        </a>
+    </div>
+    <div class="contenedor" id="listado">
+        <h1 id="titulo"></h1>
+        <br>
+            <!--
+          Aqui se genera con javascrip El post
+      -->
+        <p id="contenidoPost"></p>
+    </div>
+    <hr>
+    <div class="comentarios" id="comentarios" >
+      <!--
+          Aqui se genera con javascrip los comentarios
+      -->
+    </div>
+    <div class="contenedor">
+    <form>
+        <label for="usuarios">Seleccione Usuario:</label> <select name="usuarios" id="usuarios">
+        
+        </select>
+        <textarea id="contenidoComentario" cols="90" rows="10"></textarea>
+        <input type="button" value="Enviar Comentario" id="enviar">
+    </form>
+</div>
+    
+    </div>
+    <script src="./js/postMain.js"></script>
+</body>
+</html>

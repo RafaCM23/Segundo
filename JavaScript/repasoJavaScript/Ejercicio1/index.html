@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+    <form>
+        <label for="nick">Nickname: </label>      <input type="text" name="nick" id="nick"> <br>
+        <label for="nombre">Nombre: </label>      <input type="text" name="nombre" id="nombre"> <br>
+        <label for="password">Password: </label>      <input type="text" name="password" id="password"> <br>
+        <label for="dni">DNI: </label>      <input type="number" name="dni" id="dni"> <br>
+        <label for="edad">Edad: </label>      <input type="number" name="edad" id="edad"> <br>
+        <button type="sumbit" id="enviar">Registrar Usuario</button>
+        <button id="consultar">Consultar Usuario</button>
+        <button id="ultimoLogin">Buscar por Ultimo Login</button>
+        <button id="borrar">Borrar Todo</button>
+        <table id="tabla"></table>
+    </form>
+</div>
+<script src="script.js"></script>
+<script src="validate.js"></script>
+
+
+</body>
+</html>

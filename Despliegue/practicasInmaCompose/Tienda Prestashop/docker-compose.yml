@@ -1,0 +1,35 @@
+version: '2' #Numero de Version
+services: #Listamos los servicios
+  mariadb:  #Primero crearemos maria db
+    image: docker.io/bitnami/mariadb:10.4 #Aqui indicamos de donde coger la imagen
+    environment: #configuramos el entorno
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes #contraseñas vacias=si
+      - MARIADB_USER=pepe #nombre de usuario de la bd
+      - MARIADB_PASSWORD=pepe #contraseña de la bd
+      - MARIADB_DATABASE=mitienda #nombre de la base de datos
+    volumes: #declaramos el volumen y lo bindeamos
+      - 'mariadb_data:/bitnami/mariadb'
+  prestashop: #Luego crearemos prestashop
+    image: docker.io/bitnami/prestashop:1.7 #Le decimos de donde coger la imagen
+    ports: #y configuramos los puertos de escucha
+      - '80:8080'
+      - '443:8443'
+    environment: #Aqui vamos a declarar el entorno de la base de datos
+      - PRESTASHOP_HOST=localhost #host de la base de datos
+      - PRESTASHOP_DATABASE_HOST=mariadb #nombre de la base de datos
+      - PRESTASHOP_DATABASE_PORT_NUMBER=3306 #puerto de la base de datos
+      - PRESTASHOP_DATABASE_USER=pepe #nombre de usuario de la base de datos
+      - PRESTASHOP_DATABASE_PASSWORD=pepe #contraseña de la base de datos
+      - PRESTASHOP_DATABASE_NAME=mitienda #nombre de la base de datos
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes #contraseñas vacias=si
+    volumes: #declaramos el volumen y lo bindeamos
+      - 'prestashop_data:/bitnami/prestashop'
+    depends_on: #Necesita que mariadb este levantado
+      - mariadb
+volumes:
+  mariadb_data:
+    driver: local
+  prestashop_data:
+    driver: local

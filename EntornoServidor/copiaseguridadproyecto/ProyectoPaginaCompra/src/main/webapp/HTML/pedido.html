@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>· CHECKOUT ·</title>
+</head>
+<link rel="stylesheet" href="pedido.css">
+<body>
+    <h2>Detalles del pedido</h2>
+    <div class="contenedor">
+       
+    </div>
+    <div class="resumen">
+    </div>
+    <div class="formulario">
+        <form action="/url/" method="POST">
+        <label for="codPost">*Cod Postal:</label><input type="number" name="codPost" id="codPost" min="10000" max="99999" placeholder="ej: 41300...">
+        <br>
+        <label for="calle">*Calle:</label><input type="text" name="calle" id="calle" placeholder="Calle/via/avenida">
+        <label for="numero">*nº:</label><input type="number" name="numero" id="numero" min="0" max="150" placeholder="ej: 99">
+        <br>
+        <label for="piso">*Puerta:</label><input type="text" name="numero" id="piso" placeholder="ej:2º C" size="3" maxlength="4">
+        <br>
+        <pre><h2>         Metodos de pago</h2></pre>
+        <input type="radio" name="metodoPago" id="pagoTarjeta">Tarjeta</input>
+        <input type="radio" name="metodoPago" id="pagoContra">Contrareembolso</input>
+        <input type="radio" name="metodoPago" id="pagoCrypto">Crypto</input>
+        <br>
+        <button type="submit">Proceder</button>
+
+    </form>
+    </div>
+    
+
+    
+    
+</body>
+</html>

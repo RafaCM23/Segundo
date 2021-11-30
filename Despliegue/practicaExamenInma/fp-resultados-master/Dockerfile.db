@@ -1,0 +1,8 @@
+FROM mariadb:10.6.4
+
+ENV MARIADB_DATABASE=fp
+ENV MARIADB_ROOT_PASSWORD=root
+
+WORKDIR /data
+COPY    data  /data
+
