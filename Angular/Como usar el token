@@ -1,0 +1,24 @@
+Modificar servidor fake-api para que no sea valido para siempre
+un mismo token
+
+despues de recuperar el token por el servidor local,
+(fotos capura) hacemos un get a products por ejemplo probando el token para saber si ha expirado
+
+
+para probar el token sin tener que hacer un get:
+1-Añadimos "token":[]
+
+asi podemos hacer un get localhost:8000/auth/token
+para que nos devuelva un 200 para ver que el token no ha expirado
+
+
+que hacer:
+
+1º Paso->Arreglar la app y usar el token que caduca, y que diga el mensaje: el token ha expirado
+
+
+2º Paso-> En angular que compruebe que existe token y que el token sea valido
+
+3º Paso-> Sweet Alert que saque usuario/contraseña incorrecto
+
+4º Paso-> Diferenciar si esta mal el usuario o el email

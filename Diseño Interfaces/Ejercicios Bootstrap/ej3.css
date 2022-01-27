@@ -1,0 +1,59 @@
+.cabecera{
+   
+    background-color:rgb(55, 6, 112);
+    color: white;
+}
+.cabecera h1{
+padding: 1%;
+}
+
+.footer{
+    background-color: grey;
+    padding-top: 3%;
+    padding-left: 0% !important; 
+    padding-right: 0% !important;
+
+}
+.footer2{
+    height: 5em;
+    width: 102% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-right: 2% !important;
+
+}
+.relleno{
+    background-color: grey;
+}
+.titulo{
+    font-size:xx-large;
+}
+.imagen{
+    width: 1200px;
+}
+.btn{
+   margin-top: 1em;
+    height: 100px;
+    font-size: 5ch !important;
+}
+.card-text{
+    font-size: 3.4em;
+}
+.card-body{
+    padding-top: 0 !important;
+}
+.text-left{
+    margin-top: 5.5%;
+    font-size: 4em;
+    color:white;
+    font-weight: bolder;
+}
+.p-4{
+    background-color:midnightblue;
+}
+a{
+   padding-top: 0.3em !important; 
+}
+.dropdown-item{
+    font-size: 5ch;
+}

@@ -1,0 +1,11 @@
+ResponseEntity<List<Producto>> //Controlador v2 api
+
+if result is empty return ResponseEntity.notFound().build();
+
+else return ResponseEntity.ok(result);
+
+not found -> okay (son los errores http)
+
+
+
+Creado= ResponseEntity.status(httpStatus.CREATED).body(saved),

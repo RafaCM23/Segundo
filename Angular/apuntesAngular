@@ -1,0 +1,4 @@
+Apuntes angular:
+
+Para usar ngif ngfor y ngmodel hay que importar FormsModule
+

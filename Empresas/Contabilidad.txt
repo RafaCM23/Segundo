@@ -1,0 +1,129 @@
+
+Balance: Como esta la empresa (1 al año + trimestrales)
+-----------------------------
+
+
+Activo: Todo aquello (bienes y derechos de nuestra empresa), terreno, mobiliario, licencias...
+Derecho de cobro
+
+-Activo no corriente: Terrenos, elementos de transporte, equipos informaticos (mas de un año en la empresa).Largo plazo
+
+	·Inmovilizado material(Terreno, maquinas, local [uso propio])   ·Inmovilizado inmaterial(patentes, licencias)
+
+	·Inmovilizado financiero(Inversiones largo plazo)   ·Inversiones Inmobiliarias(para generar ingresos)
+
++Activo corriente: Caja y banco (maquina registradora, y banco). Menos de un año en la empresa
+Corto plazo
+
+	·Existencias   ·Realizable   ·Disponible
+
+material que tenemos y productos finales | deudas a nuestro favor | bancos y caja
+
+Se organizan de mas o menos liquides = facilidad para hacerlo dinero
+
+
+
+-------------------------------------------------------------------
+
+Patrimonio neto: Como se ha financiado 
+-Capital social
+-Reservas
+-Cuenta de perdidas y ganancias
+
+
+
+Pasivo: Pagar a un proveedor, lo que debo, prestamos (deudas con terceros)
+
+-Pasivo no corriente: Largo plazo, credito con entidad bancaria >1año
+Largo plazo
+
+-Pasivo corriente: Corto plazo, credito (menos de un año), proveedores, Acreedores (cosas puntuales, arreglos), deudas con SS y Hacienda
+ corto plazo
+
+
+
+
+
+
+
+Activo = PN + Pasivo
+
+
+
+Ivi: calcula por un lado la vivienda y por otro el terreno
+
+
+Cuentas comunes en el activo no corriente, por orden
+
+-Terrenos
+-Construcciones
+-Maquinaria
+-Mobiliario
+-Equipos para el proceso de la informacion
+-Elementos de transporte
+-Aplicaciones informáticas
+-Patentes y marcas
+
+
+
+------------------
+
+
+
+Amortizaciones
+
+Dinero que guardamos para arreglar o comprar otro coche...
+
+En el balance se hace una cuenta a parte con las amortizaciones o 
+(mejor) ponerlo en el inmovilizado material : Amortización acumulada inmovilizado
+
+
+
+
+
+Ejercicio:
+
+-Clientes 3.500€  -> Realizable *
+-Banco 2.500€  -> Disponible
+-Prestamo largo plazo 10.000€ -> pasivo no corriente*
+-Proveedores 1.000€ -> Pasivo corriente*
+-Acreedores 500€ -> Pasivo corriente*
+-Elementos de transporte 20.000€ -> Activo no corriente
+-Terrenos 30.000€ -> Inmovilizado Material *
+-construcciones 70.000€ -> Inmovilizado Material *
+-Marca 3.000€ -> Inmovilizado Inmaterial *
+-Patentes 2.500€  -> Inmovilizado Inmaterial *
+-Reservas 10.000€ -> Patrimonio Neto *
+-Credito corto plazo 2.000€ -> Pasivo corriente *
+-Programas 5.000€ -> Inmovilizado inmaterial *
+-Equipos informáticos 8.000€ -> Inmovilizado material *
+-Hacienda deudora 1.000€ -> Activo corriente realizable * 
+-Hacienda acreedora 500€ -> Pasivo corriente *
+-Productos terminados 2.000€ -> Activo corriente Existencias *
+-Materias primas 2.000€ -> Activos corriente Existencias *
+
+-Cuentas de perdidas y ganancias no existe
+-Capital social¿? calcular -> Patrimonio Neto
+
+
+
+
+
+
+Ejercico Perdidas y Ganancias
+
+
+10k sueldos y salarios
+5k alquiler
+300€ suministros
+40k ingresos por venta de producto
+20k prestacion de servicios
+2k intereses pagados por prestamo
+1k intereses cobrados por prestamo
+
+
+1-Resultado de explotacion
+2-Resultado financiero
+3-Resultado antes de impuestos
+4-Resultado despues de impuestos
+

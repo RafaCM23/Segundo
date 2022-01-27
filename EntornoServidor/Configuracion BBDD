@@ -1,0 +1,30 @@
+server.port:9000
+
+spring.datasource.url=jdbc:h2:./dwes
+
+spring.datasource.username=sa
+spring.datasource.password=
+
+spring.jpa.hibernate.ddl-auto=update
+
+#http://localhost:9000/h2-console
+spring.h2.console.enabled=true
+
+spring.jpa.show-sql=true
+
+
+///  Mariadb
+
+spring.datasource.url=jdbc:mariadb://localhost:3306/springboot_demo
+spring.datasource.username=root
+spring.datasource.password=1234
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=create-drop
+
+
+// dependencias: thymeleaf,spring web, spring boot dev tools, MariaDB Driver driver, spring data jpa, validation( vamos a trabajar con mariadb) 
+
+<dependency>
+	<groupId>org.mariadb.jdbc<group-Id>
+	<artifactId>mariadb-java-client<artifactId>
+</dependency>

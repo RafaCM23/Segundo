@@ -1,0 +1,28 @@
+Logica Base de datos Pagina Web sin Base de datos
+
+Usuario - 1:n - Pedido
+
+Pedido - n:m - Producto
+           \
+            ºCantidad
+
+
+Para BBDD necesitamos una tabla lineaPedido o Pedido-Producto que tenga cada producto con su cantidad
+
+Pedido-Producto
+---------------
+id_pedido       \
+                 ]>Primary Key
+id_producto     /
+
+cantidad
+
+
+otra opcion: tabla linea de pedido
+producto-1:n-lpedido-n:1-producto
+
+tiene:
+id
+id_producto
+id_pedido
+cantidad
