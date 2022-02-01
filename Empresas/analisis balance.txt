@@ -1,0 +1,91 @@
+
+FM = AC - PC
+
+Fondo de maniobra 
+-----------------
+Es activo corriente menos pasivo corriente
+
+Es la capacidad que tiene la empresa para realizar los pagos a corto plazo y quitarse las deudas
+cuanto mayor sea el resultado mejor, si se acerca a 0 vas al dia, negativo = chungo
+
+Otra forma de calcularlo= FM = Pnc-Acn
+
+
+
+
+
+
+
+
+
+Ratio de liquidez
+-----------------
+
+           A. corriente
+	   ------------
+	   P. corriente
+
+
+Debe estar entre 1 y 2, si da menos de 1 la deuda a corto plazo es mayor que el dinero que estamos generando
+
+Si da mas de 2, es que tenemos recursos económicos sin utilzar, que es bueno dentro de lo malo
+
+
+
+Ratio de endeudamiento
+----------------------
+
+           	   Pasivo
+	   ----------------------
+	   Pasivo + Patrimonio neto
+
+se aconseja inferior al 0,6
+
+
+
+Actividad:
+
+Una empresa que se dedica a la venta de chupetes. Tiene un prestamo a corto plazo de 5.000, proveedores 2.500, acreedores 1.000
+Préstamo largo plazo 2.500. Cuenta de clientes (dinero que me deben) 15.000, Banco 5.000, Caja 1.500. Capital social 15.000
+
+Perdidas y ganancias de ese año 5.000
+
+
+
+Balance
+
+Activo no corriente:
+
+Activo corriente: 1.500 caja + 5.000 banco + 15.000 cuenta de clientes
+
+
+Patrimonio neto: 15.000 capital social + pyg 5.000
+
+Pasivo no corriente: prestamo lp 2.500
+
+Pasivo corriente: prestamo cp 5.000, proveedores 2.500, acreedores 1.000
+
+
+
+Activo corriente = 21.500
+
+Patrimonio neto = 20.000
+
+Pasivo no corriente= 2.500
+
+Pasivo corriente= 8.500
+
+
+Fondo de maniobra = Ac - Pc = 13000
+
+
+Ratio de liquidez= A.corriente/P.corriente = 2.5
+
+
+Ratio de endeudamiento: Pasivo/pasivo-pNeto
+							11.000
+							------        ===   0,354
+						     11.000 + 20.000
+
+Pasivo = 11.000
+ 

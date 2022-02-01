@@ -80,7 +80,39 @@ En el balance se hace una cuenta a parte con las amortizaciones o
 
 
 
+------------------
 
+Plan de Tesoreria (contabilidad)
+
+Calcular lo que tengo que pagar cada mes lo largo del año, para que haya dinero suficiente para pagar todo
+
+ingreso/gasto -> cuando se genera 
+cobro/pago -> en el momento que llega o sale de mi cartera
+
+Enero
+
+dia 3- Paga limpieza    100€
+dia 5- Paga Suministros 125€
+dia 6- Pago empleados  1400€
+
+
+
+
+
+
+RECAPITULACION
+--------------
+Plan de produccion (punto muerto, umbral de rentabilidad...), Tipos de costes (fijos variables),
+Aprovisionamiento (control de stock [metodo ABC]), Inversión y financiación, |EXAMEN 1| Dia 14 (dia 10 repaso)
+
+Reting,leasing, contabilidad:
+Balance, cuenta de ganancias y perdidas, y plan de tesorerias |EXAMEN 2|
+
+
+Presentacion dinamica, atractiva, entendible, captar la atencion Dia 7 (ahi entra todo)
+Plan de tesoreria: Enero (cobros y pagos) -> diferencia, Febrero, el dinero que me ha sobrado de Enero (cobros y pagos) -> diferencia.
+
+---------------
 Ejercicio:
 
 -Clientes 3.500€  -> Realizable *
@@ -126,4 +158,17 @@ Ejercico Perdidas y Ganancias
 2-Resultado financiero
 3-Resultado antes de impuestos
 4-Resultado despues de impuestos
+
+
+
+
+
+
+
+
+
+
+
+
+
 
